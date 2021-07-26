@@ -43,7 +43,7 @@ namespace ACM.BL
 
         public override bool Validate()
         {
-            var isValid = true;
+            var isValid = false;
 
             if (orderDate == null) isValid = false;
 
